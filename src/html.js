@@ -1,9 +1,5 @@
-/* eslint-disable react/require-default-props */
-/* eslint-disable react/no-danger */
-/* eslint-disable react/forbid-prop-types */
-/* eslint-disable jsx-a11y/html-has-lang */
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function HTML({
   htmlAttributes,
@@ -11,7 +7,7 @@ export default function HTML({
   bodyAttributes,
   preBodyComponents,
   postBodyComponents,
-  body,
+  body
 }) {
   return (
     <html {...htmlAttributes}>
@@ -19,6 +15,9 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet"></link>
         {headComponents}
       </head>
       <body {...bodyAttributes}>
@@ -27,7 +26,7 @@ export default function HTML({
         {postBodyComponents}
       </body>
     </html>
-  );
+  )
 }
 
 HTML.propTypes = {
@@ -36,5 +35,5 @@ HTML.propTypes = {
   bodyAttributes: PropTypes.object,
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
-};
+  postBodyComponents: PropTypes.array
+}
