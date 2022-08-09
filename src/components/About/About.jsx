@@ -8,7 +8,7 @@ import { Link } from 'react-scroll'
 
 const About = () => {
   const { about } = useContext(PortfolioContext)
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about
+  const { img, resume } = about
 
   const [isDesktop, setIsDesktop] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
@@ -39,42 +39,38 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Чаще всего мы сопровождаем на ринопластику, но так же мы сопровождаем на:'}
+                  Одной из наиболее частых запросов, которые выбирают наши пациенты - является ринопластика. И совершенно объяснимо, почему, ведь структура и внешний вид носа это один из основных факторов красоты. Помимо ринопластики наша компания может предложить вам многофункциональный и разнообразный спектр эстетических операций:
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'маммопластика'}
+                  • Маммопластика
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'блефаропластика'}
+                  • Блефаропластика
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'абдоминопластика'}
+                  • Абдоминопластика
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'липосакция'}
+                  • Липосакция
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'подтяжка лица'}
+                  • Подтяжка лица
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'пересадка волос'}
+                  • Пересадка волос
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'липоскульптурирование'}
+                  • Липоскульптурирование
                 </p>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <Link
-                      to="projects"
-                      smooth duration={1000}
-                      className="cta-btn cta-btn--resume"
-                    >
-                      Что входит в наши услуги?
-                    </Link>
-                  </span>
-                )}
+                <span className="d-flex mt-3">
+                  <Link
+                    to="projects"
+                    smooth duration={1000}
+                    className="cta-btn cta-btn--resume"
+                  >
+                    Что входит в наши услуги?
+                  </Link>
+                </span>
               </div>
             </Fade>
           </Col>

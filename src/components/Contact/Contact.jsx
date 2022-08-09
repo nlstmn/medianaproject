@@ -4,6 +4,7 @@ import Title from '../Title/Title'
 import AboutImg from '../Image/AboutImg'
 import { Container, Row, Col } from 'react-bootstrap'
 import PortfolioContext from '../../context/context'
+import { Link } from 'react-scroll'
 
 const Contact = () => {
   const { about } = useContext(PortfolioContext)
@@ -16,7 +17,9 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              Текст о пациентах
+              Мы являемся агенством медицинского туризма, которое предоставляет полное сопровождение и
+              официальную информацию о клиниках для того, чтобы наши пациенты могли найти лучшие
+              медицинские решения в сфере пластической хирургии в Турции. Наши пациенты всегда уходят от нас с улыбками на лицах 🤍
             </p>
             <Row className="row-wrapper">
               <Col lg={4} sm={12}>
@@ -41,14 +44,13 @@ const Contact = () => {
                 </Fade>
               </Col>
             </Row>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="before-after"
+              smooth duration={1000}
               className="cta-btn cta-btn--resume"
-              //href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
             >
               Посмотреть До / После
-            </a>
+            </Link>
           </div>
         </Fade>
       </Container>
