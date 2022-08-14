@@ -35,9 +35,7 @@ const BeforeAfter = () => {
                                     <img
                                         src="https://i.ibb.co/M1Yn1n8/before-after-1.jpg"
                                         alt="Before After"
-                                        className="roundedd shadow-lg"
-                                        width="350"
-                                        height="350"
+                                        className="roundedd shadow-lg ba-img"
                                     />
                                 </div>
                             </Fade>
@@ -48,9 +46,7 @@ const BeforeAfter = () => {
                                     <img
                                         src="https://i.ibb.co/sgLZtbs/before-after-2.jpg"
                                         alt="Before After"
-                                        className="roundedd shadow-lg"
-                                        width="350"
-                                        height="350"
+                                        className="roundedd shadow-lg ba-img"
                                     >
                                     </img>
                                 </div>
@@ -62,9 +58,7 @@ const BeforeAfter = () => {
                                     <img
                                         src="https://i.ibb.co/q9ZWrSZ/before-after-8.jpg"
                                         alt="Before After"
-                                        className="roundedd shadow-lg"
-                                        width="350"
-                                        height="350"
+                                        className="roundedd shadow-lg ba-img"
                                     >
                                     </img>
                                 </div>
@@ -76,9 +70,7 @@ const BeforeAfter = () => {
                                     <img
                                         src="https://i.ibb.co/n6gqWW4/before-after-3.jpg"
                                         alt="Before After"
-                                        className="roundedd shadow-lg"
-                                        width="350"
-                                        height="350"
+                                        className="roundedd shadow-lg ba-img"
                                     >
                                     </img>
                                 </div>
@@ -90,9 +82,7 @@ const BeforeAfter = () => {
                                     <img
                                         src="https://i.ibb.co/wzH2PwR/before-after-4.jpg"
                                         alt="Before After"
-                                        className="roundedd shadow-lg"
-                                        width="350"
-                                        height="350"
+                                        className="roundedd shadow-lg ba-img"
                                     >
                                     </img>
                                 </div>
@@ -104,9 +94,7 @@ const BeforeAfter = () => {
                                     <img
                                         src="https://i.ibb.co/vjK4ZYc/before-after-5.jpg"
                                         alt="Before After"
-                                        className="roundedd shadow-lg"
-                                        width="350"
-                                        height="350"
+                                        className="roundedd shadow-lg ba-img"
                                     >
                                     </img>
                                 </div>
@@ -118,9 +106,7 @@ const BeforeAfter = () => {
                                     <img
                                         src="https://i.ibb.co/Fqfjf1L/before-after-6.jpg"
                                         alt="Before After"
-                                        className="roundedd shadow-lg"
-                                        width="350"
-                                        height="350"
+                                        className="roundedd shadow-lg ba-img"
                                     >
                                     </img>
                                 </div>
@@ -132,9 +118,7 @@ const BeforeAfter = () => {
                                     <img
                                         src="https://i.ibb.co/DMb4F8m/before-after-7.jpg"
                                         alt="Before After"
-                                        className="roundedd shadow-lg"
-                                        width="350"
-                                        height="350"
+                                        className="roundedd shadow-lg ba-img"
                                     >
                                     </img>
                                 </div>
@@ -146,9 +130,7 @@ const BeforeAfter = () => {
                                     <img
                                         src="https://i.ibb.co/1LL34kh/before-after-9.jpg"
                                         alt="Before After"
-                                        className="roundedd shadow-lg"
-                                        width="350"
-                                        height="350"
+                                        className="roundedd shadow-lg ba-img"
                                     >
                                     </img>
                                 </div>

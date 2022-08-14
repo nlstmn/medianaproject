@@ -1,3 +1,11 @@
+.aboutimg{
+  width: 350px;
+  height: 350px;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+  }
+}
 #about {
   background-color: #94B49F;
   background-image: linear-gradient(135deg, #94B49F 0%, #FCF8E8 100%);
@@ -8,7 +16,8 @@
   padding: 10% 0;
   border-radius: 0 200px;
   @media (max-width: 768px) {
-    border-radius: 0 100px;
+    border-radius: 0 60px;
+    padding: 9rem 2.5rem 5rem 2.5rem;
   }
 
   @include respond(tab-land) {

@@ -34,9 +34,7 @@ const About = () => {
                 <img
                   src="https://i.ibb.co/Vv6vfZM/about-us.png"
                   alt="Before After"
-                  className="roundedd shadow-lg"
-                  width="350"
-                  height="350"
+                  className="shadow-lg aboutimg"
                 >
                 </img>
               </div>

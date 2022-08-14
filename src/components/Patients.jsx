@@ -1,19 +1,17 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Fade from 'react-reveal/Fade'
 import Title from './Title/Title'
-import AboutImg from './Image/AboutImg'
 import { Container, Row, Col } from 'react-bootstrap'
-import PortfolioContext from '../context/context'
 import { Link } from 'react-scroll'
 
 const Contact = () => {
-  const { about } = useContext(PortfolioContext)
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about
 
   return (
     <section id="contact">
       <Container>
-        <Title title="Наши пациенты" />
+        <Fade bottom duration={1000} delay={300} distance="0px">
+          <h2 className={"section-title-patients"}>Наши пациенты</h2>
+        </Fade>
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
@@ -25,7 +23,14 @@ const Contact = () => {
               <Col lg={4} sm={12}>
                 <Fade bottom duration={1000} delay={600} distance="30px">
                   <div className="about-wrapper__image">
-                    <AboutImg alt="profile picture" filename={img} />
+                    <img
+                      src="https://i.ibb.co/Vv6vfZM/about-us.png"
+                      alt="Before After"
+                      className="not-roundedd shadow-lg"
+                      width="100%"
+                      height="100%"
+                    >
+                    </img>
                     {/*<video width="320" height="240" controls>
                       <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg" />
   <source src="https://www.veed.io/view/b503bab3-046d-44f5-99c1-dceabb0a2c19?sharingWidget=true" type="video/mp4" />
@@ -36,14 +41,28 @@ const Contact = () => {
               <Col lg={4} sm={12}>
                 <Fade bottom duration={1000} delay={600} distance="30px">
                   <div className="about-wrapper__image">
-                    <AboutImg alt="profile picture" filename={img} />
+                    <img
+                      src="https://i.ibb.co/Vv6vfZM/about-us.png"
+                      alt="Before After"
+                      className="not-roundedd shadow-lg"
+                      width="100%"
+                      height="100%"
+                    >
+                    </img>
                   </div>
                 </Fade>
               </Col>
               <Col lg={4} sm={12}>
                 <Fade bottom duration={1000} delay={600} distance="30px">
                   <div className="about-wrapper__image">
-                    <AboutImg alt="profile picture" filename={img} />
+                    <img
+                      src="https://i.ibb.co/Vv6vfZM/about-us.png"
+                      alt="Before After"
+                      className="not-roundedd shadow-lg"
+                      width="100%"
+                      height="100%"
+                    >
+                    </img>
                   </div>
                 </Fade>
               </Col>

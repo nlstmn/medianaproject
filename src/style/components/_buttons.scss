@@ -146,9 +146,23 @@
   border-radius: 20px !important;
   margin-bottom: 30px;
 }
+.not-roundedd{
+  margin-bottom: 30px;
+}
 #before-after{
   padding: 10% 0;
   background-image: linear-gradient(0deg, white 0%, #898aa652 100%);
+  @media (max-width: 768px) {
+    padding: 12rem 2.5rem;
+  }
+}
+.ba-img{
+  width: 350px;
+  height: 350px;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+  }
 }
 .beforeafterbutton{
   padding: 3% 0 !important;

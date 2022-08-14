@@ -21,7 +21,7 @@ const Contact = () => {
     }, [])
 
     return (
-        <section id="projects">
+        <section id="contactt">
             <Container>
                 <div className="project-wrapper">
                     <Title title="АНКЕТА" />

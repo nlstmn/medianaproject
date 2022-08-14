@@ -87,7 +87,7 @@ const Services = () => {
                   <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
                     <p className="hero-cta">
                       <span className="cta-btn-main cta-btn--more">
-                        <Link to="about" smooth duration={1000}>
+                        <Link to="contactt" smooth duration={1000}>
                           Заполнить анкету
                         </Link>
                       </span>
