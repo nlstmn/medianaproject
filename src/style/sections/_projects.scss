@@ -30,6 +30,11 @@
     }
 
     &__text {
+      @media (max-width: 768px) {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+      }
       text-align: left;
       margin: 5px 0;
       padding: 30px;

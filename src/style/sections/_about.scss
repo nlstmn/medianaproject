@@ -1,12 +1,15 @@
 #about {
   background-color: #94B49F;
-  background-image: linear-gradient(135deg, #CEE5D0 0%, #94B49F 100%);
+  background-image: linear-gradient(135deg, #94B49F 0%, #FCF8E8 100%);
   color: $white-color;
   height: 100%;
   border-top: 0px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   padding: 10% 0;
   border-radius: 0 200px;
+  @media (max-width: 768px) {
+    border-radius: 0 100px;
+  }
 
   @include respond(tab-land) {
     height: 100%;
@@ -38,6 +41,7 @@
       height: 100%;
       justify-content: center;
       flex-direction: column;
+      text-shadow: 3px 3px 5px #969696;
 
       @include respond(phone) {
         align-items: center;

@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Fade from 'react-reveal/Fade'
-import Title from '../Title/Title'
-import AboutImg from '../Image/AboutImg'
+import Title from './Title/Title'
+import AboutImg from './Image/AboutImg'
 import { Container, Row, Col } from 'react-bootstrap'
-import PortfolioContext from '../../context/context'
+import PortfolioContext from '../context/context'
 import { Link } from 'react-scroll'
 
 const Contact = () => {
@@ -26,6 +26,10 @@ const Contact = () => {
                 <Fade bottom duration={1000} delay={600} distance="30px">
                   <div className="about-wrapper__image">
                     <AboutImg alt="profile picture" filename={img} />
+                    {/*<video width="320" height="240" controls>
+                      <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg" />
+  <source src="https://www.veed.io/view/b503bab3-046d-44f5-99c1-dceabb0a2c19?sharingWidget=true" type="video/mp4" />
+                    </video>*/}
                   </div>
                 </Fade>
               </Col>

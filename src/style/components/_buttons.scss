@@ -148,10 +148,22 @@
 }
 #before-after{
   padding: 10% 0;
+  background-image: linear-gradient(0deg, white 0%, #898aa652 100%);
 }
 .beforeafterbutton{
   padding: 3% 0 !important;
 }
 .beforeaftertext{
   line-height: 145%;
+}
+.form-group-contact{
+  text-align: left;
+}
+.contactinput{
+  font-size: 1.75rem;
+  margin-bottom: 2.5rem;
+}
+.contactinputbutton{
+  font-size: 1.75rem;
+  color: #ECB390;
 }

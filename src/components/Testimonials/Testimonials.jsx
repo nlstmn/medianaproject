@@ -27,51 +27,51 @@ const Testimonials = () => {
             <Container>
                 <Title title="Отзывы:" />
                 <Row className="testim-wrapper">
-                    <div class="cardsingle">
-                        <div class="card">
-                            <div class="face front-face">
-                                <div class="testimonial">
+                    <div className="cardsingle">
+                        <div className="card">
+                            <div className="face front-face">
+                                <div className="testimonial">
                                     « я ещё хотела сказать огромное спасибо за вашу работу!🤍все прошло даже лучше, чем я могла представить) очень тёплый и профессиональный
                                     приём, поддержка постоянно и ответственный выбор врача. спасииибо за помощь в осуществлении мечты❤️🔥 »
                                 </div>
                             </div>
-                            <div class="face back-face">
-                                <div class="pt-3 text-uppercase name">
+                            <div className="face back-face">
+                                <div className="pt-3 text-uppercase name">
                                     — Аня
                                 </div>
-                                <div class="designation">Маммопластика</div>
+                                <div className="designation">Маммопластика</div>
                             </div>
                         </div>
                     </div>
-                    <div class="cardsingle">
-                        <div class="card">
-                            <div class="face front-face">
-                                <div class="testimonial">
+                    <div className="cardsingle">
+                        <div className="card">
+                            <div className="face front-face">
+                                <div className="testimonial">
                                     « я ещё хотела сказать огромное спасибо за вашу работу!🤍все прошло даже лучше, чем я могла представить) очень тёплый и профессиональный
                                     приём, поддержка постоянно и ответственный выбор врача. спасииибо за помощь в осуществлении мечты❤️🔥 »
                                 </div>
                             </div>
-                            <div class="face back-face">
-                                <div class="pt-3 text-uppercase name">
+                            <div className="face back-face">
+                                <div className="pt-3 text-uppercase name">
                                     — Аня
                                 </div>
-                                <div class="designation">Маммопластика</div>
+                                <div className="designation">Маммопластика</div>
                             </div>
                         </div>
                     </div>
-                    <div class="cardsingle">
-                        <div class="card">
-                            <div class="face front-face">
-                                <div class="testimonial">
+                    <div className="cardsingle">
+                        <div className="card">
+                            <div className="face front-face">
+                                <div className="testimonial">
                                     « Большое вам спасибо! Вы осуществили мою мечту за одну неделю🔥 Хочу поблагодарить команду за то, что вы очень оперативно
                                     решали все вопросы! Ну и, конечно, хочу поблагодарить своего хирурга, золотые руки - взялся за мой случай несмотря на сложность! »
                                 </div>
                             </div>
-                            <div class="face back-face">
-                                <div class="pt-3 text-uppercase name">
+                            <div className="face back-face">
+                                <div className="pt-3 text-uppercase name">
                                     — Ева
                                 </div>
-                                <div class="designation">Ринопластика</div>
+                                <div className="designation">Ринопластика</div>
                             </div>
                         </div>
                     </div>

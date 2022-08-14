@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import Hero from './Hero/Hero'
-import About from './About/About'
+import About from './About'
 import Services from './Services/Services'
-import Contact from './Contact/Contact'
-import BeforeAfter from './BeforeAfter/BeforeAfter'
+import Patients from './Patients'
+import BeforeAfter from './BeforeAfter'
+import Contact from './Contact'
 import Testimonials from './Testimonials/Testimonials'
 import Footer from './Footer/Footer'
 import { PortfolioProvider } from '../context/context'
@@ -30,9 +31,10 @@ function App() {
       <Hero />
       <About />
       <Services />
-      <Contact />
+      <Patients />
       <BeforeAfter />
       <Testimonials />
+      <Contact />
       <Footer />
     </PortfolioProvider>
   )

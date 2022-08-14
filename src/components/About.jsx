@@ -1,9 +1,9 @@
 import React, { useContext, useState, useEffect } from 'react'
 import Fade from 'react-reveal/Fade'
 import { Container, Row, Col } from 'react-bootstrap'
-import Title from '../Title/Title'
-import AboutImg from '../Image/AboutImg'
-import PortfolioContext from '../../context/context'
+import Title from './Title/Title'
+import AboutImg from './Image/AboutImg'
+import PortfolioContext from '../context/context'
 import { Link } from 'react-scroll'
 
 const About = () => {
@@ -31,7 +31,14 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename={img} />
+                <img
+                  src="https://i.ibb.co/Vv6vfZM/about-us.png"
+                  alt="Before After"
+                  className="roundedd shadow-lg"
+                  width="350"
+                  height="350"
+                >
+                </img>
               </div>
             </Fade>
           </Col>

@@ -59,12 +59,17 @@
 }
 
 .back-to-top i {
-  color: $white-color;
+  color: #ECB390;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
   cursor: pointer;
+  text-shadow: 3px 3px 5px #969696;
 
   &:hover {
     transform: translateY(-2px);
   }
+}
+
+.footertext{
+  color: rgb(39, 35, 65) !important;
 }
