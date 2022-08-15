@@ -10,22 +10,27 @@
   font-family: 'Manrope', sans-serif;
   top: 4.5rem;
   position: absolute;
-  left: 25%;
-  right: 25%;
+  left: 24%;
+  right: 24%;
+  font-family: 'Playfair Display', serif;
 }
 .waviy span {
   position: relative;
   display: inline-block;
   font-size: 40px;
-  color: black;
+  color: #9ed2c6;
   text-transform: uppercase;
-  animation: flip 2s infinite;
-  animation-delay: calc(.2s * var(--i))
+  animation: flip 4s infinite;
+  animation-delay: calc(.4s * var(--i))
 }
 @keyframes flip {
   0%,80% {
     transform: rotateY(360deg) 
   }
+}
+.videosrc{
+  margin-bottom: 3rem;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
 #about {
   background-color: #9ed2c6;

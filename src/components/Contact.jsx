@@ -44,7 +44,7 @@ const Contact = () => {
                                                     Ваше имя
                                                 </h3>
                                             </label>
-                                            <input id="form_name" type="text" name="name" className="form-control contactinput" placeholder="Пожалуйста, заполните поле с вашим именем" required="required" data-error="Firstname is required." />
+                                            <input id="form_name" type="text" name="name" className="form-control contactinput" required="required" data-error="Firstname is required." />
                                         </div>
                                         <div className="form-group-contact">
                                             <label for="form_phone">
@@ -52,7 +52,7 @@ const Contact = () => {
                                                     Ваш номер телефона
                                                 </h3>
                                             </label>
-                                            <input id="form_phone" type="phone" name="phone" className="form-control contactinput" placeholder="Пожалуйста, заполните поле с вашим телефоном" required="required" data-error="Valid phone is required." />
+                                            <input id="form_phone" type="phone" name="phone" className="form-control contactinput" required="required" data-error="Valid phone is required." />
                                         </div>
                                         <div className="form-group-contact">
                                             <label for="form_username">
@@ -60,7 +60,7 @@ const Contact = () => {
                                                     Ник в Instagram или Telegram
                                                 </h3>
                                             </label>
-                                            <input id="form_username" type="username" name="username" className="form-control contactinput" placeholder="Пожалуйста, заполните поле с вашим ником" required="required" data-error="Valid email is required." />
+                                            <input id="form_username" type="username" name="username" className="form-control contactinput" required="required" data-error="Valid email is required." />
                                         </div>
                                         <div className="form-group-contact">
                                             <label for="form_need">
@@ -89,7 +89,7 @@ const Contact = () => {
                                                             Были ли ранее операции? Какие?
                                                         </h3>
                                                     </label>
-                                                    <textarea id="form_message" name="message" className="form-control contactinput" placeholder="Пожалуйста, заполните поле с вашими ответами" rows="4" required="required" data-error="Please, leave us a message." />
+                                                    <textarea id="form_message" name="message" className="form-control contactinput" rows="4" required="required" data-error="Please, leave us a message." />
                                                 </div>
                                             </div>
                                             <div className="col-md-12">

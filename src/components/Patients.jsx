@@ -3,6 +3,8 @@ import Fade from 'react-reveal/Fade'
 import Title from './Title'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-scroll'
+import ReactPlayer from "react-player"
+import Patient from "../videos/patients_1.mp4"
 
 const Contact = () => {
 
@@ -15,54 +17,46 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              Мы являемся агенством медицинского туризма, которое предоставляет полное сопровождение и
+              Мы являемся агентством медицинского туризма, которое предоставляет полное сопровождение и
               официальную информацию о клиниках для того, чтобы наши пациенты могли найти лучшие
               медицинские решения в сфере пластической хирургии в Турции. Наши пациенты всегда уходят от нас с улыбками на лицах 🤍
             </p>
             <Row className="row-wrapper">
               <Col lg={4} sm={12}>
                 <Fade bottom duration={1000} delay={600} distance="30px">
-                  <div className="about-wrapper__image">
-                    <img
-                      src="https://i.ibb.co/Vv6vfZM/about-us.png"
-                      alt="Before After"
-                      className="not-roundedd shadow-lg"
-                      width="100%"
-                      height="100%"
-                    >
-                    </img>
-                    {/*<video width="320" height="240" controls>
-                      <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg" />
-  <source src="https://www.veed.io/view/b503bab3-046d-44f5-99c1-dceabb0a2c19?sharingWidget=true" type="video/mp4" />
-                    </video>*/}
+                  <div className="about-wrapper__image videosrc">
+                    <video controls width="100%">
+                      <source src={Patient} type="video/mp4" />
+                      Sorry, your browser doesn't support videos.
+                    </video>
                   </div>
                 </Fade>
               </Col>
               <Col lg={4} sm={12}>
                 <Fade bottom duration={1000} delay={600} distance="30px">
-                  <div className="about-wrapper__image">
-                    <img
-                      src="https://i.ibb.co/Vv6vfZM/about-us.png"
-                      alt="Before After"
-                      className="not-roundedd shadow-lg"
-                      width="100%"
-                      height="100%"
-                    >
-                    </img>
+                  <div className="about-wrapper__image videosrc">
+                    <video controls width="100%">
+                      <source src={Patient} type="video/mp4" />
+                      Sorry, your browser doesn't support videos.
+                    </video>
                   </div>
                 </Fade>
               </Col>
               <Col lg={4} sm={12}>
                 <Fade bottom duration={1000} delay={600} distance="30px">
-                  <div className="about-wrapper__image">
-                    <img
+                  <div className="about-wrapper__image videosrc">
+                    {/*<img
                       src="https://i.ibb.co/Vv6vfZM/about-us.png"
                       alt="Before After"
                       className="not-roundedd shadow-lg"
                       width="100%"
                       height="100%"
                     >
-                    </img>
+                  </img>*/}
+                    <video controls width="100%">
+                      <source src={Patient} type="video/mp4" />
+                      Sorry, your browser doesn't support videos.
+                    </video>
                   </div>
                 </Fade>
               </Col>
