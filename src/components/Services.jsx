@@ -2,8 +2,8 @@ import React, { useContext, useEffect, useState } from 'react'
 import Fade from 'react-reveal/Fade'
 import Tilt from 'react-tilt'
 import { Container, Row, Col } from 'react-bootstrap'
-import Title from '../Title/Title'
-import ProjectImg from '../Image/ProjectImg'
+import Title from './Title'
+import ProjectImg from './Image/ProjectImg'
 import { Link } from 'react-scroll'
 
 const Services = () => {

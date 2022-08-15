@@ -1,8 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react'
 import Fade from 'react-reveal/Fade'
 import { Container, Row, Col } from 'react-bootstrap'
-import Title from '../Title/Title'
-import PortfolioContext from '../../context/context'
+import Title from './Title'
+import PortfolioContext from '../context/context'
 import { Link } from 'react-scroll'
 
 const Testimonials = () => {

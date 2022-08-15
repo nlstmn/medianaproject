@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Fade from 'react-reveal/Fade'
-import Title from './Title/Title'
+import Title from './Title'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-scroll'
 
