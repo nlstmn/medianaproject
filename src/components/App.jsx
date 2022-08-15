@@ -10,6 +10,11 @@ import Footer from './Footer'
 import { PortfolioProvider } from '../context/context'
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data'
 
+// #f9ebde
+// #e9d9c0
+// #9ed2c6
+// #53b9bb
+
 function App() {
 
   const [hero, setHero] = useState({})
