@@ -2,11 +2,8 @@ import React, { useContext, useState, useEffect } from 'react'
 import { Container } from 'react-bootstrap'
 import Fade from 'react-reveal/Fade'
 import { Link } from 'react-scroll'
-import PortfolioContext from '../context/context'
 
 const Header = () => {
-  const { hero } = useContext(PortfolioContext)
-  const { title, name, subtitle, cta } = hero
 
   const [isDesktop, setIsDesktop] = useState(false)
   const [isMobile, setIsMobile] = useState(false)
@@ -24,10 +21,19 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
+        <div class="waviy">
+          <span>M</span>
+          <span>E</span>
+          <span>D</span>
+          <span>I</span>
+          <span>A</span>
+          <span>N</span>
+          <span>A</span>
+        </div>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            {title || 'Мы — агентство по организации и сопровождению на пластические операции'}{' '}
-            <br /><span className="text-color-main">{name || ' в Турции.'}</span>
+            Мы — агентство по организации и сопровождению на пластические операции
+            <br /><span className="text-color-main"> в Турции.</span>
             <br />
             {/*subtitle || "I'm the Unknown Developer."*/}
           </h1>
@@ -36,7 +42,7 @@ const Header = () => {
           <p className="hero-cta">
             <span className="cta-btn-main cta-btn--more">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Узнать больше'}
+                Узнать больше
               </Link>
             </span>
           </p>
