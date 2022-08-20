@@ -2,12 +2,9 @@ import React, { useContext, useState, useEffect } from 'react'
 import Fade from 'react-reveal/Fade'
 import { Container, Row, Col } from 'react-bootstrap'
 import Title from './Title'
-import PortfolioContext from '../context/context'
 import { Link } from 'react-scroll'
 
 const Testimonials = () => {
-    const { about } = useContext(PortfolioContext)
-    const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about
 
     const [isDesktop, setIsDesktop] = useState(false)
     const [isMobile, setIsMobile] = useState(false)
@@ -31,15 +28,15 @@ const Testimonials = () => {
                         <div className="card">
                             <div className="face front-face">
                                 <div className="testimonial">
-                                    « я ещё хотела сказать огромное спасибо за вашу работу!🤍все прошло даже лучше, чем я могла представить) очень тёплый и профессиональный
-                                    приём, поддержка постоянно и ответственный выбор врача. спасииибо за помощь в осуществлении мечты❤️🔥 »
+                                    « Жизнь круто изменилась! Я избавилась от самого главного комплекса в жизни. Уверенность в себе волшебная штука.
+                                    Мне это помогло кучу ментальных проблем решить, помогло во всех начинаниях❤️ спасибо-спасибо, я очень довольна🙏 »
                                 </div>
                             </div>
                             <div className="face back-face">
                                 <div className="pt-3 text-uppercase name">
-                                    — Аня
+                                    — Настя
                                 </div>
-                                <div className="designation">Маммопластика</div>
+                                <div className="designation">Блефаропластика</div>
                             </div>
                         </div>
                     </div>

@@ -3,12 +3,8 @@ import Fade from 'react-reveal/Fade'
 import { Container, Row, Col } from 'react-bootstrap'
 import Title from './Title'
 import { Link } from 'react-scroll'
-import PortfolioContext from '../context/context'
 
 const BeforeAfter = () => {
-
-    const { about } = useContext(PortfolioContext)
-    const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about
 
     const [isDesktop, setIsDesktop] = useState(false)
     const [isMobile, setIsMobile] = useState(false)

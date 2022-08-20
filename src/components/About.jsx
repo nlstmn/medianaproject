@@ -2,13 +2,9 @@ import React, { useContext, useState, useEffect } from 'react'
 import Fade from 'react-reveal/Fade'
 import { Container, Row, Col } from 'react-bootstrap'
 import Title from './Title'
-import AboutImg from './Image/AboutImg'
-import PortfolioContext from '../context/context'
 import { Link } from 'react-scroll'
 
 const About = () => {
-  const { about } = useContext(PortfolioContext)
-  const { img, resume } = about
 
   const [isDesktop, setIsDesktop] = useState(false)
   const [isMobile, setIsMobile] = useState(false)

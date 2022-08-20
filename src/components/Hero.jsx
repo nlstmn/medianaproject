@@ -30,6 +30,12 @@ const Header = () => {
           <span>N</span>
           <span>A</span>
         </div>
+          <img
+            src="https://i.ibb.co/1TVcXQW/instagram.png"
+            alt="Before After"
+            className="instimg"
+          >
+          </img>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             Мы — агентство по организации и сопровождению на пластические операции
